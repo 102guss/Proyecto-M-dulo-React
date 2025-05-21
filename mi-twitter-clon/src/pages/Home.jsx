@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 
+import './Home.css'
+
 import TweetList from '../components/TweetList'
 
 import TweetForm from '../components/TweetForm'

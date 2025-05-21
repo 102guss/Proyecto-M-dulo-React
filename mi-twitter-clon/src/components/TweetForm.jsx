@@ -15,7 +15,7 @@ const TweetForm = ({ onAddTweet }) => {
 
   return (
 
-    <form onSubmit={handleSubmit}>
+    <form className='tweet-form' onSubmit={handleSubmit}>
 
       <input
         type='text'

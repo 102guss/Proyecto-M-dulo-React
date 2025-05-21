@@ -1,9 +1,7 @@
-import { useState } from 'react'
-
 const Tweet = ({ tweet, onLike }) => {
   return (
 
-    <div className="tweet">
+    <div className='tweet'>
 
       <p>{tweet.text}</p>
 

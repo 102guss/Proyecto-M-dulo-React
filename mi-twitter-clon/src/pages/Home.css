@@ -1,0 +1,90 @@
+.home-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 24px;
+}
+
+.tweet-form {
+  margin-bottom: 24px;
+}
+
+.tweet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tweet-item {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 16px 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}
+
+.tweet-text {
+  font-size: 1.1rem;
+  color: #14171a;
+}
+
+.like-btn {
+  background: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+  margin-left: 25px;
+}
+
+.like-btn:hover {
+  background: #0d8ddb;
+}
+
+div{
+  
+  background-color: rgb(181, 219, 245);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #14171a;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+  width: 50%;
+
+}
+input{
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #14171a;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+button{
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}

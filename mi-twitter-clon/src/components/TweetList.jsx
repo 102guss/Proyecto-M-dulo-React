@@ -2,17 +2,18 @@ import Tweet from './Tweet'
 
 const TweetList = ({ tweets, onLike }) => {
   return (
-
     <div>
-
-      {tweets.map((tweet) => (
-
-        <Tweet key={tweet.id} tweet={tweet} onLike={onLike} />
-
-      ))}
-
+      <ul className='tweet-list'>
+        {tweets.map((tweet) => (
+          <li key={tweet.id} className='tweet-item'>
+            <span className='tweet-text'>{tweet.text}</span>
+            <button className='like-btn' onClick={() => onLike(tweet.id)}>
+              ❤️ {tweet.likes}
+            </button>
+          </li>
+        ))}
+      </ul>
     </div>
-
   )
 }
 

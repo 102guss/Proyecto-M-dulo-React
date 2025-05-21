@@ -1,5 +1,3 @@
-// Profile.jsx
-
 function Profile () {
   return (
     <div>
@@ -8,4 +6,4 @@ function Profile () {
   )
 }
 
-export default Profile // 👈 Esta línea es esencial
+export default Profile
